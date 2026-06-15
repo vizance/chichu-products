@@ -22,10 +22,10 @@ echo "→ StaticCrypt 加密 source/early-bird.html ..."
 npx -y staticrypt source/early-bird.html \
   -p "$PASSWORD" \
   -d build/enc \
+  -t source/login_template.html \
   --remember 30 \
   --short \
-  --template-title "朱騏 早鳥價對照表（內部）" \
-  --template-instructions "本頁為內部定價資料，請輸入密碼後觀看。" \
+  --template-title "早鳥價對照表" \
   --template-placeholder "請輸入密碼" \
   --template-button "進入" \
   --template-remember "記住我（30 天內免重新輸入）" \
