@@ -1,0 +1,5 @@
+source/
+build/
+node_modules/
+.DS_Store
+.staticrypt.json
